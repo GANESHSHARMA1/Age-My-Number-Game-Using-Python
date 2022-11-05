@@ -1,0 +1,30 @@
+# Exercise 3
+
+# Guess a Number Game
+i = 0
+j = 1
+print("Enter a Number: ")
+Num = int(input())
+print("Enter Chances to finish This Game: ")
+chance = int(input())
+while(i <= chance):
+    print("Guess My Number: ", "Attemp:",j)
+    Num2 = int(input())
+    j = j + 1
+    if j > chance:
+        print("Sorry! You have finished all Attempts.")
+        print("Better Luck Next Time!")
+        break
+    if Num < Num2:
+        print("You entered Large Number!")
+        i = i + 1
+    elif Num > Num2:
+        print("You entered Small Number!")
+        i = i + 1
+        continue
+    else:
+        print("Congrates! You Got the Number: ",Num2)
+        i = i + 1
+        print("You finished the game in",i,"Chances")
+        print("Game Over")
+        break
