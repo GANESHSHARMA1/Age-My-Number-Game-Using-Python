@@ -8,7 +8,7 @@ Num = int(input())
 print("Enter Chances to finish This Game: ")
 chance = int(input())
 while(i <= chance):
-    print("Guess My Number: ", "Attemp:",j)
+    print("Guess My Number: ", "Attempt:",j)
     Num2 = int(input())
     j = j + 1
     if j > chance:
