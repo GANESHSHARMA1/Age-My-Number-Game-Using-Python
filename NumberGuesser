@@ -2,16 +2,19 @@
 
 # Guess a Number Game
 i = 0
-j = 1
 print("Enter a Number: ")
 Num = int(input())
+
 print("Enter Chances to finish This Game: ")
 chance = int(input())
-while(i <= chance):
-    print("Guess My Number: ", "Attempt:",j)
+j = chance
+print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+while(True):
+    print("Guess My Number: ",)
     Num2 = int(input())
-    j = j + 1
-    if j > chance:
+    j = j - 1
+    print(j,"Chances left")
+    if j == 0:
         print("Sorry! You have finished all Attempts.")
         print("Better Luck Next Time!")
         break
