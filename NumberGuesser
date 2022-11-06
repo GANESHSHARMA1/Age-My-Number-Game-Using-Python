@@ -2,13 +2,15 @@
 
 # Guess a Number Game
 i = 0
-print("Enter a Number: ")
-Num = int(input())
+# print("Enter a Number: ")
+# Num = int(input())
+Num = 19
 
-print("Enter Chances to finish This Game: ")
-chance = int(input())
+# print("Enter Chances to finish This Game: ")
+# chance = int(input())
+chance = 8
 j = chance
-print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+print("Welcome to Number Guesser Game.\n\n")
 while(True):
     print("Guess My Number: ",)
     Num2 = int(input())
